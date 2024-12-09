@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lausanne-350';
+}
+@font-face {
+    font-family: 'Lausanne-350'; 
+    src: url("TWKLausanne-350.otf"); 
+}
+
+
+a {
+color: black;
+text-decoration: none;
+}
+
+.nav-bar {
+    width: 100vw;
+    text-decoration: underline;
+    padding-left: 45px;
+    font-size: 15px;
+    padding-right: 45px;
+    height: 50px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.title{
+    font-size: 80px;
+    padding: 35px;
+    line-height: 1.0em;
+    word-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.author{
+    padding: 35px;
+    padding-top:15px;
+    width: 90vw;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.dropdown{
+    max-width: 400px;
+    display:block;
+}
+
+
+
+.gap{
+    height: 30px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-bottom: dotted black 2px;
+}
+
+.parent{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:35px;
+    gap:20px;
+}
+
+
+.child{
+    text-indent: 50px;
+}
+
+.image_between{
+    margin-top:35px;
+    padding:none;
+    text-align: center;
+    border: none;
+
+}
+.subtitle{
+    text-transform: none;
+}
+.empty{
+    display:block;
+    
+
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    border: 10px;
+    text-align: center;
+}
+
+
+.ending{
+    height: 30px;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-bottom: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+    .dropdown{
+        max-width: 300px;
+    }
+    .empty{
+        display:none;
+    }
+    .parent{
+        grid-template-columns: 1fr 2fr;
+        display:grid;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .dropdown{
+        max-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .dropdown{
+        display:none;
+    }
+    .title{
+        font-size: 55px;
+    }
+    .parent{
+        grid-template-columns: 1fr;
+        display:grid;
+    }
+}
+
+
+
