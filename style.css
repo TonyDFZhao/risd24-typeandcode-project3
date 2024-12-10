@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lausanne-350';
+    hyphens: auto;
+    hyphenate-limit-chars: 7 3 3;
 }
+
 @font-face {
     font-family: 'Lausanne-350'; 
     src: url("TWKLausanne-350.otf"); 
