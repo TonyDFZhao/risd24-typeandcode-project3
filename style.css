@@ -5,6 +5,7 @@
     font-family: 'Lausanne-350';
     hyphens: auto;
     hyphenate-limit-chars: 7 3 3;
+    text-wrap: pretty;
 }
 
 @font-face {
